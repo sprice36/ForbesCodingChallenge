@@ -1,0 +1,19 @@
+{
+  "name": "forbescodingchallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprice36/ForbesCodingChallenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sprice36/ForbesCodingChallenge/issues"
+  },
+  "homepage": "https://github.com/sprice36/ForbesCodingChallenge#readme",
+  "description": ""
+}
