@@ -1,0 +1,88 @@
+.modal-open{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-content{
+    width: 300px;
+    left: 24%;
+    z-index: 1000;
+    height: auto;
+    margin-top: -800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: .3rem;
+    outline: 0;
+}
+.modal-body{
+    padding: .5em 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.displayNone{
+    display: none;
+}
+.modal-backdrop{
+    background: #000000;
+    opacity: .4;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 90;
+}
+
+body{
+    background: #dbdbdb;
+    font-family: Helvetica;
+    color: black;
+    padding: .5rem;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.movie-container{
+    display: flex;
+    flex-flow: wrap row;
+}
+img {
+    width: 75%;
+    height: 75%;
+}
+.movieButton{
+    max-width: 300px;
+    max-height: 300px;
+}
+#pageNumber{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn-link {
+    background: transparent;
+    border: 0;
+    padding: 0 ;
+    font-weight: normal;
+    color: #2477AB;
+    box-shadow: 0 0 0 transparent;
+}
+#number{
+    margin-right: .2rem;
+    margin-left: .2rem;
+}
+.mr-2{
+    margin-right: .2rem;
+}
+#cancel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: .5rem;
+}

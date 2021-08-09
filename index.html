@@ -5,16 +5,33 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Forbes coding challenge</title>
+    <link rel="stylesheet" href="./custom.css">
 </head>
 <body>
- <div class="default-container">
-     <h2>Marvel Movie Posters</h2>
- </div>
- <div class="movie-container" data-target-movies>
+<div class="default-container">
+    <h2 class="title">Fish Theme Movie Posters</h2>
+</div>
+<div class="movie-container">
+</div>
+<div class="page-container">
+    <div id="pageNumber">
+    Page<span id="number" data-target-page></span>
+        <span class="mr-2">of</span>
+        <div class="mr-2" data-total-results></div>
+        <span class="mr-2">results.</span>
+    <button class="btn-link" id="nextBtn">Next Page</button>
+    </div>
 
- </div>
+    <div class="modal-content displayNone" id="movieModal">
+        <button class="btn-link" id="cancel">Cancel</button>
+        <span class="title">Movie Details</span>
+        <div class="modal-body" data-target-movie>
+        </div>
+    </div>
+</div>
 </body>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/functions.js"></script>
 </html>
